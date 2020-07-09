@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import CardHeader from "@material-ui/core/CardHeader";
 import { IconButton, CardMedia } from "@material-ui/core";
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 const useStyles = makeStyles({
     root: {
         minWidth: 275,
@@ -49,7 +49,7 @@ const FigureCard = (props) => {
             <CardActions>
                 <Button size="small">
                     <a className={classes.link} target="_blank" href={weburl}>
-                        Learn More
+                        Buy Now
                     </a>
                 </Button>
             </CardActions>

@@ -2,12 +2,16 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import Header from "./Header";
 import Content from "./Content";
+import Featured from "./Featured";
 
 function App() {
     return (
         <Grid container direction="column">
             <Grid item>
                 <Header />
+            </Grid>
+            <Grid item>
+                <Featured />
             </Grid>
             <Grid item container>
                 <Grid xs={0} sm={2} />
