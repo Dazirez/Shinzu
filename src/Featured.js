@@ -6,11 +6,12 @@ const useStyles = makeStyles((theme) => ({
     icon: {},
     heroContent: {
         height: "400px",
-        backgroundImage: `url(https://wallpapercave.com/wp/wp1812736.jpg)`,
-        backgroundPosition: 'center', 
-        backgroundSize: 'cover', 
-        backgroundRepeat: 'no-repeat',
+        backgroundImage: `url(https://www.wallpaperup.com/uploads/wallpapers/2013/02/28/46046/a1a5fdab63dd386d5e321d0b5b8cdcea.jpg)`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
         marginBottom: "25px",
+        padding: "100px",
     },
     heroButtons: {},
 }));

@@ -5,7 +5,7 @@ import figureList from "./constants";
 const Content = () => {
     const getFigureCard = (figureCardObj) => {
         return (
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={12} sm={3}>
                 <FigureCard {...figureCardObj} />;
             </Grid>
         );
