@@ -5,8 +5,11 @@ import { Container, Typography, Button, Grid } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
     icon: {},
     heroContent: {
-        height: "300px",
-        backgroundImage: "https://static.myfigurecollection.net/pics/figure/large/675949.jpg",
+        height: "400px",
+        backgroundImage: `url(https://wallpapercave.com/wp/wp1812736.jpg)`,
+        backgroundPosition: 'center', 
+        backgroundSize: 'cover', 
+        backgroundRepeat: 'no-repeat'
     },
     heroButtons: {},
 }));
