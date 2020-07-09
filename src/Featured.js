@@ -9,7 +9,8 @@ const useStyles = makeStyles((theme) => ({
         backgroundImage: `url(https://wallpapercave.com/wp/wp1812736.jpg)`,
         backgroundPosition: 'center', 
         backgroundSize: 'cover', 
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        marginBottom: "25px",
     },
     heroButtons: {},
 }));
@@ -42,7 +43,7 @@ const Featured = () => {
                             </Button>
                         </Grid>
                         <Grid item>
-                            <Button variant="outlined" color="primary">
+                            <Button variant="contained" color="secondary">
                                 List an Item
                             </Button>
                         </Grid>
